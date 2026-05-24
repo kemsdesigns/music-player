@@ -46,21 +46,21 @@ export const songs: Song[] = [
     id: '6',
     title: 'Last Last',
     artist: 'Burna Boy',
-    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/df/db/46/dfdb46e2-2a62-73a7-0248-d30f7823f545/075679712061.jpg/600x600bb.jpg',
-    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/36/6a/69366a64-3a52-e547-41ea-2d0ad6fb7789/mzaf_10131303465067310225.plus.aac.p.m4a',
+    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/eb/31/caeb3173-eaf0-0cd5-65ea-585adfe312ba/075679745156.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/c0/0f/42c00f8b-fff6-2529-70c3-861c21143c0a/mzaf_2842108628707526245.plus.aac.p.m4a',
   },
   {
     id: '7',
     title: 'Essence',
     artist: 'Wizkid, Tems',
-    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bf/16/be/bf16bee4-e91e-a4b0-dc08-542bc942b083/886448744158.jpg/600x600bb.jpg',
-    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/db/75/c6db7560-5806-38d3-852d-09d7b41a543f/mzaf_12902087230640253701.plus.aac.p.m4a',
+    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b0/09/8e/b0098ed0-ef53-f2b5-386a-c8e6181f3c8a/886448775256.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/dc/ba/b3dcba73-7f33-9abe-089c-73557a6dcb54/mzaf_16412591162283722395.plus.aac.p.m4a',
   },
   {
     id: '8',
     title: 'Calm Down',
     artist: 'Rema',
-    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/d2/88/bdd28821-ea1c-5bb3-2e21-0c58e806cbf6/22UMGIM10355.rgb.jpg/600x600bb.jpg',
-    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/75/cf/8075cf19-ed4f-52bd-80b1-3b30ccced6ef/mzaf_17518603980824871530.plus.aac.p.m4a',
+    coverUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ee/f1/dc/eef1dc82-f516-fd0f-581c-3f952a0e2243/22UMGIM92113.rgb.jpg/600x600bb.jpg',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/c7/54/c3c754cd-6680-4818-9182-e08a719d59ba/mzaf_1190051474475595816.plus.aac.p.m4a',
   }
 ];
