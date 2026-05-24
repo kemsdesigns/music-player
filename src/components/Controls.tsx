@@ -56,10 +56,10 @@ export const Controls = () => {
       {/* Buttons */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
         <button onClick={prevSong} style={buttonStyle}>
-          <Backward02Icon size={24} variant="solid" />
+          <Backward02Icon size={24} />
         </button>
         <button onClick={backward10s} style={buttonStyle}>
-          <GoBackward10SecIcon size={24} variant="stroke" />
+          <GoBackward10SecIcon size={24} />
         </button>
         
         <motion.button
@@ -69,14 +69,14 @@ export const Controls = () => {
           transition={{ duration: 0.2 }}
           style={buttonStyle}
         >
-          {isPlaying ? <PauseIcon size={32} variant="solid" /> : <PlayIcon size={32} variant="solid" />}
+          {isPlaying ? <PauseIcon size={32} /> : <PlayIcon size={32} />}
         </motion.button>
         
         <button onClick={forward10s} style={buttonStyle}>
-          <GoForward10SecIcon size={24} variant="stroke" />
+          <GoForward10SecIcon size={24} />
         </button>
         <button onClick={nextSong} style={buttonStyle}>
-          <Forward02Icon size={24} variant="solid" />
+          <Forward02Icon size={24} />
         </button>
       </div>
     </div>

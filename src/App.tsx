@@ -21,7 +21,7 @@ function App() {
         
         {/* Top Logo */}
         <div style={{ zIndex: 10 }}>
-          <SpotifyIcon size={42} variant="solid" color="#ffffff" />
+          <SpotifyIcon size={42} color="#ffffff" />
         </div>
 
         <MusicCard />

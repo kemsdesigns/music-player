@@ -1,11 +1,12 @@
 import { motion, AnimatePresence } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { useAudio } from './AudioPlayer';
 import { Controls } from './Controls';
 
 export const MusicCard = () => {
   const { currentSong, isPlaying } = useAudio();
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: { y: 100, opacity: 0 },
     visible: { 
       y: 0, 
@@ -14,7 +15,7 @@ export const MusicCard = () => {
     }
   };
 
-  const coverVariants = {
+  const coverVariants: Variants = {
     initial: { x: 100, opacity: 0 },
     animate: { x: 0, opacity: 1, transition: { type: 'spring', damping: 20 } },
     exit: { x: -100, opacity: 0, transition: { duration: 0.2 } },
@@ -24,7 +25,7 @@ export const MusicCard = () => {
     }
   };
 
-  const infoVariants = {
+  const infoVariants: Variants = {
     initial: { y: 20, opacity: 0 },
     animate: { y: 0, opacity: 1, transition: { delay: 0.1, duration: 0.3 } },
     exit: { y: -20, opacity: 0, transition: { duration: 0.2 } }

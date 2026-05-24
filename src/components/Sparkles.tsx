@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import { SparklesIcon } from 'hugeicons-react';
 
 interface SparklesProps {
@@ -6,7 +7,7 @@ interface SparklesProps {
 }
 
 export const Sparkles = ({ isPlaying }: SparklesProps) => {
-  const sparkleVariants = {
+  const sparkleVariants: Variants = {
     initial: { scale: 0, opacity: 0 },
     animate: (custom: number) => ({
       scale: 1,
@@ -55,7 +56,7 @@ export const Sparkles = ({ isPlaying }: SparklesProps) => {
             transform: `rotate(${pos.rotation}deg)`
           }}
         >
-          <SparklesIcon size={pos.size} variant="solid" />
+          <SparklesIcon size={pos.size} />
         </motion.div>
       ))}
     </>
